@@ -249,9 +249,13 @@ footer p {
         justify-content: space-around;
 
     }
+    #home h1, h2, h4, p{
+        text-align: center;
+        margin: 5px;
+    }
 
     #sobre {
-        height: 1000px;
+        height: 1200px;
         width: 46,5vh;
         justify-content:space-around;
         min-height: 20px;
@@ -259,6 +263,7 @@ footer p {
         align-items: flex-start;
         margin: 0 auto;
         padding: auto;
+        text-align: center;
     }
     #sobre h2, p{
         text-align: center;
@@ -267,10 +272,12 @@ footer p {
     }
  
     #sobre img{ 
-        max-width: 10,111%;
-        justify-content: center;
-        align-items: center;
+       height: 350px;
+       margin: 0;
+       padding-top: 20px;
+       border: none;
     }
+
 
     #sobre div {
         flex-grow: 1;
