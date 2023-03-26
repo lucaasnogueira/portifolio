@@ -10,7 +10,7 @@
 .caixa-principal {
     height: 100vh;
     width: 100%;
-    background-image: url(./Imagem/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(lll);
     background-size: cover;
     background-position: center;
     background-color: #191919;
@@ -239,16 +239,70 @@ footer p {
     transition: 0.5s;
 }
 
-@media only screen and (max-width: 350px) {
-    .container {
-        width: 100%;
-        margin: 0;
-    }
-}
 
-@media only screen and (max-width: 767px) {
-    .container {
+
+@media screen and (max-width: 600px) {
+    section {
         width: 100%;
-        margin: 0;
+        padding: 0;
+        flex-direction: row;
+        justify-content: space-around;
+
     }
+
+    #sobre {
+        height: 1000px;
+        width: 46,5vh;
+        justify-content:space-around;
+        min-height: 20px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: auto;
+    }
+    #sobre h2, p{
+        text-align: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+ 
+    #sobre img{ 
+        max-width: 10,111%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sobre div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    #projeto-id {
+        height: 1000px;
+        width: 46,5vh;
+        justify-content:space-around;
+        min-height: 200px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: auto;
+    }
+
+    .card-projetos {
+        height: 1250px;
+        padding: 15px 30px;
+        display: grid;
+        grid-gap: 30px;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    #projeto-id h2,p {
+        text-align: center;
+        width: 100%;
+        
+    }
+ 
+
 }
